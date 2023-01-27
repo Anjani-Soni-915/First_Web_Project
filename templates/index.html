@@ -1,0 +1,203 @@
+{% extends 'base.html' %}
+
+{% block title %} 
+Home
+{% endblock title %}
+
+{% block body %}
+<div class="container-fluid  my-4">
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/static/home.jfif" class="d-block w-100" alt="..." style="height:500px;
+            width:600px;">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Welcome to the Jinies Villa!! </h5>
+                <p>Stay cool, and pick one...</p>
+            
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/static/ice4.jfif" class="d-block w-100" alt="..." style="height:500px;
+            width:600px;">
+            <div class="carousel-caption d-none d-md-block">
+               <h5>We serve love with our Softies</h5>
+               <p>Eat and Repeat!!</p>
+            </div>
+        {% comment %} </div> {% endcomment %}
+            
+        </div>
+        <div class="carousel-item">
+            <img src="/static/dou.jfif" class="d-block w-100" alt="..." style="height:500px;
+            width:600px;">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>DOUGHNUT VILLA</h5>
+                <p>Hey!! Which one? Chocolate,Vanilla,Strawberry....</p>
+             </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+</div>
+</div>    
+
+<div class="container">
+<h1 class="my-4"><center>Think,Click and Pick :)</center></h1>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+            <img src="/static/d2.jfif" class="d-block w-100" alt="..." style="height:250px;
+            width:200px;">
+          <div class="card-body">
+            <p class="card-text">Strawberry Flavoured cream with lots of chunky sparkles!!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                {% comment %} <button type="button" class="btn btn-sm btn-outline-secondary">View</button> {% endcomment %}
+                <button type="button" class="btn btn-sm btn-outline-secondary">Add Item</button>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+            <img src="/static/d1.jfif" class="d-block w-100" alt="..." style="height:250px;
+            width:200px;">
+          <div class="card-body">
+            <p class="card-text">Your favorite Chocolate dipped doughnut with glittery sparkels!!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                {% comment %} <button type="button" class="btn btn-sm btn-outline-secondary">View</button> {% endcomment %}
+                <button type="button" class="btn btn-sm btn-outline-secondary">Add Item</button>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+            <img src="/static/d3.jfif" class="d-block w-100" alt="..." style="height:273px;
+            width:200px;">
+          <div class="card-body">
+            <p class="card-text">Delicious Combo of 4 for you!!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                {% comment %} <button type="button" class="btn btn-sm btn-outline-secondary">View</button> {% endcomment %}
+                <button type="button" class="btn btn-sm btn-outline-secondary">Add Item</button>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+            <img src="/static/i6.jfif" class="d-block w-100" alt="..." style="height:250px;
+            width:200px;">
+          <div class="card-body">
+            <p class="card-text">We have lots of delicious flavours.....which one you would like to pick?</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                {% comment %} <button type="button" class="btn btn-sm btn-outline-secondary">View</button> {% endcomment %}
+                <button type="button" class="btn btn-sm btn-outline-secondary">Add Item</button>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+            <img src="/static/i5.jfif" class="d-block w-100" alt="..." style="height:250px;
+            width:200px;">
+          <div class="card-body">
+            <p class="card-text">Combo of four flavours with rice cone and added vibrant toping!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                {% comment %} <button type="button" class="btn btn-sm btn-outline-secondary">View</button> {% endcomment %}
+                <button type="button" class="btn btn-sm btn-outline-secondary">Add Item</button>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+            <img src="/static/i4.jfif" class="d-block w-100" alt="..." style="height:250px;
+            width:200px;">
+          <div class="card-body">
+            <p class="card-text">Delicious ice-cream bucket with lots of fruits :-) </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                {% comment %} <button type="button" class="btn btn-sm btn-outline-secondary">View</button> {% endcomment %}
+                <button type="button" class="btn btn-sm btn-outline-secondary">Add Item</button>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+            <img src="/static/s1.jfif" class="d-block w-100" alt="..." style="height:273px;
+            width:200px;">
+          <div class="card-body">
+            <p class="card-text">Vanilla flavored softy with differnt sparkles!!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                {% comment %} <button type="button" class="btn btn-sm btn-outline-secondary">View</button> {% endcomment %}
+                <button type="button" class="btn btn-sm btn-outline-secondary">Add Item</button>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+            <img src="/static/s2.jfif" class="d-block w-100" alt="..." style="height:250px;
+            width:200px;">
+          <div class="card-body">
+            <p class="card-text">Softies with different flavours and sparkels...choose one :-)</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                {% comment %} <button type="button" class="btn btn-sm btn-outline-secondary">View</button> {% endcomment %}
+                <button type="button" class="btn btn-sm btn-outline-secondary">Add Item</button>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+            <img src="/static/s4.jfif" class="d-block w-100" alt="..." style="height:273px;
+            width:200px;">
+          <div class="card-body">
+            <p class="card-text">Simple natural flavored Vanilla softy!!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                {% comment %} <button type="button" class="btn btn-sm btn-outline-secondary">View</button> {% endcomment %}
+                <button type="button" class="btn btn-sm btn-outline-secondary">Add Item</button>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock body %}
